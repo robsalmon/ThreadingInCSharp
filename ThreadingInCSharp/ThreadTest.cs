@@ -17,8 +17,9 @@ namespace ThreadingInCSharp
         {
             if (!done)
             {
-                done = true;
+                
                 Console.WriteLine("Done");
+                done = true;
             }
         }
     }
